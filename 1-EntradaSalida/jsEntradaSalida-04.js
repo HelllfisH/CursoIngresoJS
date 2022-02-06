@@ -4,6 +4,12 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	var nombre;
+	nombre=prompt("Su nombre es: ");
+	document.getElementById('txtIdNombre').value=nombre;
+	//con esta linea de codigo muestro por id un espacio en blanco
+	
+
+
 }
 
