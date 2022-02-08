@@ -13,8 +13,6 @@ function mostrarAumento()
 	importe= parseInt(importe);
 	aumento= importe * 0.10;
 	resultado= importe + aumento;
-	resultado= txtIdResultado.value;
-	alert(resultado);
-
+	document.getElementById("txtIdResultado").value= resultado;
 
 }
