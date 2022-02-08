@@ -7,6 +7,8 @@ function mostrar()
 	var age;
 	name= txtIdNombre.value;
 	age= txtIdEdad.value;
-	alert("Usted se llama " + name + " y tiene " + age + " años");
+	alert("My name is " + name + " and I am " + age + " years old");
 	
 }
+
+	

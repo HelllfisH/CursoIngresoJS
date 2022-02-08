@@ -14,7 +14,6 @@ function sumar()
 	number2= parseInt(number2);
 	resultado= number1 + number2;
 	alert("La suma es " + resultado);
-
 }
 
 function restar()
@@ -28,27 +27,26 @@ function restar()
 	number4= parseInt(number4);
 	resultado= number3 - number4;
 	alert("La resta es " + resultado);
-
 }
 
 function multiplicar()
 { 
 	var number5;
 	var number6;
+	var resultado;
 	number5= txtIdNumeroUno.value;
 	number6= txtIdNumeroDos.value;
 	number5= parseInt(number5);
 	number6= parseInt(number6);
 	resultado= number5 * number6;
 	alert("La multiplicacion es " + resultado);
-
 }
 
 function dividir()
 {
 	var number7;
 	var number8;
-	var resultado; 
+	var resultado;
 	number7= txtIdNumeroUno.value;
 	number8= txtIdNumeroDos.value;
 	number7= parseInt(number7);
