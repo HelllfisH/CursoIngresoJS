@@ -5,7 +5,6 @@ function mostrar()
 {
 	var name;
 	name= txtIdNombre.value;
-	alert(name);	
-
+	alert("Su nombre es " + name);
 }
 

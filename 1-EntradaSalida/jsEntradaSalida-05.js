@@ -7,7 +7,7 @@ function mostrar()
 	var age;
 	name= txtIdNombre.value;
 	age= txtIdEdad.value;
-	alert("My name is " + name + " and I am " + age + " years old");
+	alert("Your name is " + name + " and you are " + age + " years old");
 	
 }
 
