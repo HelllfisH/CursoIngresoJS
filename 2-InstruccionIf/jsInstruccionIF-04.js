@@ -4,13 +4,13 @@ function mostrar()
 	var edad;
 	edad= txtIdEdad.value;
 	edad= parseInt(edad);
-	 if(edad >= 13 && edad <= 17)
-	 {
-		 alert("Es adolecente");
-	 }else
+
+	if(edad >= 13 && edad <= 17)
+	{
+		alert("Es adolecente");
+	}/*else
 	{
 		alert("No es adolecente");
-	}
-
+	}*/
 
 }//FIN DE LA FUNCIÓN

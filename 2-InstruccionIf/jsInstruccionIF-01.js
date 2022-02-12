@@ -2,12 +2,10 @@ function mostrar()
 {
 //tomo la edad  
 	var edad;
+	edad= txtIdEdad.value;
+	edad= parseInt(edad);
 
-	edad = txtIdEdad.value;
-
-	edad = parseInt(edad);
-	
-	if(edad == 15)
+	if(!isNaN(edad) && edad == 15)
 	{
 		alert("niña bonita");
 	}

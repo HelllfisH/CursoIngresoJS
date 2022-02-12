@@ -5,7 +5,7 @@ function mostrar()
 	edad= txtIdEdad.value;
 	edad= parseInt(edad);
 
-	if(edad >= 18)
+	if(!isNaN(edad) && edad > 17)
 	{
 		alert("Es mayor de edad");
 		
@@ -13,6 +13,5 @@ function mostrar()
 	{
 		alert("Es menor de edad");
 	}
-
 	
 }//FIN DE LA FUNCIÓN

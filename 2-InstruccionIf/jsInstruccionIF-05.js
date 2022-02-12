@@ -1,16 +1,15 @@
 function mostrar()
 {
 	//tomo la edad  
+	
 	var edad;
 	edad= txtIdEdad.value;
 	edad= parseInt(edad);
 
-	if(edad <= 12 || edad >= 18)
+	if(edad < 13 || edad > 17)
 	{
-		alert("NO es adolecente");
-
-	}
-	/*else
+		alert("No es adolecente");
+	}/*else
 	{
 		alert(" ");
 	}*/
