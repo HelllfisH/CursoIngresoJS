@@ -17,7 +17,7 @@ function mostrar()
 	
 	/*el signo ! hace lo contrario a lo que se escribe
 	
-	if(!(edad >= 13 && edad <= 17))
+	if(!(edad > 12 && edad < 18))
 	{
 		alert("NO es adolecente");
 	}else

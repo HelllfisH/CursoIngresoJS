@@ -10,7 +10,6 @@ function mostrar()
 	{
 		alert("niña bonita");
 	}
-		
 	
 }
 //FIN DE LA FUNCIÓN

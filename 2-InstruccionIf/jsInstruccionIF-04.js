@@ -6,11 +6,10 @@ function mostrar()
 	edad= txtIdEdad.value;
 	edad= parseInt(edad);
 
-	if(edad > 12 && edad < 18)
+	if(edad < 18 && edad > 12)
 	{
-		alert("Es adolecente");
-	}/*else
-	{
-		alert("No es adolecente");
-	}*/
+		alert(" Es adolecente");
+	}
+	
+
 }//FIN DE LA FUNCIÓN

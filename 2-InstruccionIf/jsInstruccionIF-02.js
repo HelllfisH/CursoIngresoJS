@@ -11,4 +11,5 @@ function mostrar()
 		alert("Es mayor de edad");
 	}
 
+
 }//FIN DE LA FUNCIÓN

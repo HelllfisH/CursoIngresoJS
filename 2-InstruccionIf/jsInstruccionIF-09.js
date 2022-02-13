@@ -5,5 +5,5 @@ function mostrar()
 	var number;
 	number= Math.floor(Math.random() * 10) + 1;
 	alert(number);
-
+	
 }//FIN DE LA FUNCIÓN
