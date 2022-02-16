@@ -8,21 +8,22 @@ function mostrar()
 
 	if(edad > 17)
 	{
-		alert("Es mayor de edad");
-	
+		alert("es mayor de edad");
+
 	}else
 	{
 		if(edad > 12 && edad < 18)
 		{
-			alert("Es adolecente");
+			alert("adolecente");
 
 		}else
 		{
-			if(!isNaN(edad) && edad < 13)
+			if(edad < 13)
 			{
-				alert("Es menor de edad");
+				alert("niño");
 			}
+			
 		}
-	}
+	}	
 	
 }//FIN DE LA FUNCIÓN
