@@ -7,50 +7,50 @@ function sumar()
 {	
 	var number1;
 	var number2;
+	var result;
 	number1= txtIdNumeroUno.value;
 	number2= txtIdNumeroDos.value;
 	number1= parseInt(number1);
 	number2= parseInt(number2);
-	resultado= number1 + number2;
-	alert("La suma es " + resultado);
+	result= number1 + number2;
+	alert("La suma es " + result);
 }
 
 function restar()
 {
 	var number1;
 	var number2;
-	var resultado;
+	var result;
 	number1= txtIdNumeroUno.value;
 	number2= txtIdNumeroDos.value;
 	number1= parseInt(number1);
 	number2= parseInt(number2);
-	resultado= number1 - number2;
-	alert("La resta es " + resultado);
+	result= number1 - number2;
+	alert("La resta es " + result);
 }
 
 function multiplicar()
 { 
 	var number1;
 	var number2;
-	var resultado;
+	var result;
 	number1= txtIdNumeroUno.value;
 	number2= txtIdNumeroDos.value;
 	number1= parseInt(number1);
 	number2= parseInt(number2);
-	resultado= number1 * number2;
-	alert("La multiplicacion es " + resultado);
+	result= number1 * number2;
+	alert("La multiplicacion es " + result);
 }
 
 function dividir()
 {
 	var number1;
 	var number2;
-	var resultado;
 	number1= txtIdNumeroUno.value;
 	number2= txtIdNumeroDos.value;
 	number1= parseInt(number1);
 	number2= parseInt(number2);
-	resultado= number1 / number2;
-	alert("La division es " + resultado);
+	result= number1 / number2;
+	alert("La division es " + result);
 }
 
