@@ -4,15 +4,15 @@ function mostrar()
 	
 	var number;
 	number= Math.floor(Math.random() * 10) + 1;
-	console.log("El numero es " + number);
+	console.log("La nota es " + number);
 
 	if(number > 8)
 	{
-		alert("EXELENTE");
+		alert("EXCELENTE");
 
 	}else
 	{
-		if(number > 3 && number < 9)
+		if(number > 4 && number < 9)
 		{
 			alert("APROBÓ");
 

@@ -17,6 +17,6 @@ function mostrar()
 			alert("Es menor de edad");
 		
 		}
-	}	
+	}
 	
 }//FIN DE LA FUNCIÓN

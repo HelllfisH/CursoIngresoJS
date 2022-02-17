@@ -6,10 +6,10 @@ function mostrar()
 	edad= txtIdEdad.value;
 	edad= parseInt(edad);
 
-	if(!isNaN(edad) && edad == 15)
+	if(edad == 15)
 	{
 		alert("niña bonita");
 	}
-	
+
 }
 //FIN DE LA FUNCIÓN
