@@ -14,11 +14,13 @@ function mostrar()
 			alert("a clases!!!");
 			break;
 		case "Julio":
-			alert("se vienen las vacaciones!!!");
+			alert("se vienen las vacaciones");
 			break;
 		case "Diciembre":
-			alert("Felices fiesetas!!!");
-			break;			
+			alert("Felices fiesta!!!");
+			break;
+		default:
+			break;				
 	}
 
 	
