@@ -5,7 +5,7 @@ function mostrar()
 	var clave;
 	clave= prompt("Ingrese la clave");
 	
-	do
+	while(clave != "utn750")
 	{
 		if(clave != "utn750")
 		{
@@ -17,7 +17,7 @@ function mostrar()
 			alert("Clave correcta");
 		}
 		
-	}while(clave != "utn750")
+	}
 		
 	
 }//FIN DE LA FUNCIÓN
